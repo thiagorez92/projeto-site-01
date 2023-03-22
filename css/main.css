@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    background-image: linear-gradient(black, rgb(74, 74, 74));
+    height: 100px;
+    border-bottom: 0.1px solid rgb(63, 63, 63);
+}
+
+.cabecalho-sub {
+    display: grid;
+    grid-template-columns: 200px auto 85px;
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.menu-logo {
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-botoes {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-botoes ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100px;
+    padding: 0 25px 0 0;
+}
+
+.menu-botoes ul li a {
+    color: rgb(226, 226, 226);
+    font-weight: 700;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px 0 15px;
+    font-weight: 700;
+}
+
+.menu-botoes a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.quatro {
+    background-color: rgb(160, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.quatro:hover {
+    background-color: white;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo-geral {
+    display: grid;
+    grid-template-columns: auto 350px;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    color: #3d3d3d;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.conteudo-esq {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.conteudo-esq-1 {
+    float: left;
+    line-height: 1.5;
+    border-bottom: 0.5px solid rgb(228, 228, 228);
+    padding-bottom: 30px;
+}
+
+.conteudo-esq-2 {
+    float: left;
+    line-height: 1.5;
+    border-bottom: 0.5px solid rgb(228, 228, 228);
+    padding-bottom: 30px;
+
+}
+
+.conteudo-dir {
+    margin-top: 30px;
+}
+
+.conteudo-dir-1 {
+    line-height: 1.5;
+    max-height: auto;
+    border-bottom: 0.5px solid rgb(228, 228, 228);
+    padding-bottom: 30px;
+}
+
+table,
+th,
+td {
+    color: white;
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #353535;
+}
+
+.form {
+    background-color: #353535;
+    width: 100%;
+}
+
+#formulario {
+    color: white;
+    padding: 25px;
+    background-color: #353535;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#formulario a {
+    color: white;
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.piloto-favorito {
+    line-height: 1.75;
+}
+
+/*========= MEDIA 1000PX =========*/
+
+@media (max-width: 1300px) {
+
+    .conteudo-geral,
+    .cabecalho-sub {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .redes-sociais {
+        display: none;
+    }
+
+    .cabecalho-sub {
+        display: grid;
+        grid-template-columns: 200px auto;
+        max-width: 800px;
+        height: 100px;
+        margin: 0 auto;
+    }
+
+    .menu-logo {
+        max-width: 200px;
+    }
+
+    .menu-botoes ul {
+        display: flex;
+
+        display: flex;
+        justify-content: space-between;
+        width: 600px;
+    }
+
+}
