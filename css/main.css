@@ -197,13 +197,13 @@ td {
 
 .cg-sobre-0 {
     background-image: linear-gradient(rgb(160, 0, 0), rgb(192, 55, 55));
-    height: 48px;
+    height: 40px;
 }
 
 .cg-sobre-0 h2 {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 7px;
     color: rgb(238, 238, 238);
 }
 
@@ -212,4 +212,39 @@ td {
     margin: 0 auto;
     line-height: 1.5;
     text-align: justify;
+}
+
+.cg-sobre-1 a {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+/* MENU --- HISTORIA --- */
+
+.cg-historia-0 {
+    background-image: linear-gradient(rgb(160, 0, 0), rgb(192, 55, 55));
+    height: 40px;
+}
+
+.cg-historia-0 h2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 7px;
+    color: rgb(238, 238, 238);
+}
+
+.cg-historia-1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.cg-historia-1 a {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
 }
