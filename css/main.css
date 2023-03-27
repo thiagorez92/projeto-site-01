@@ -248,3 +248,44 @@ td {
     padding: 5px 20px;
     border-radius: 5px;
 }
+
+/* ============= FOOTER ===== */
+
+footer {
+    background-color: rgb(34, 34, 34);
+    color: rgb(242, 242, 242);
+}
+
+.footer-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.footer-conteudo ul {
+    list-style: none;
+}
+
+.fc {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(22, 22, 22);
+}
+
+.footer-conteudo li,
+.footer-conteudo p {
+    color: #9e9e9e;
+
+
+}
